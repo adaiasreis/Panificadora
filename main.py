@@ -12,7 +12,7 @@ print("\n")
 if (opcao == "1"):
   print("Nova Venda")
   sal_qtd = int(input("Digite a quantidade de pão de sal "))
-  leite_qtd = int(input("Digite a quantidade de pão de leite"))
+  leite_qtd = int(input("Digite a quantidade de pão de leite "))
   milho_qtd = int(input("Digite a quantidade de pão de milho "))
   total = sal_qtd + leite_qtd + milho_qtd
   print("Total de pães: %.0f deu R$ %.2f" % (total, total*0.25))
